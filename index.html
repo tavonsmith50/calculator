@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=-, initial-scale=1.0">
     <title>JavaScript Calaulator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="calculator">
@@ -17,31 +18,33 @@
         <div class="bottom">
            <section class="keys">
                <div class="column">
-                 <span>7</span>
-                 <span>4</span>
-                 <span>1</span>
-                 <span>.</spsan>
+                 <span data-key="7">7</span>
+                 <span data-key="4">4</span>
+                 <span data-key="1">1</span>
+                 <span data-key=".">.</spsan>
                </div>
                <div class="column">
-                   <span>8</span>
-                   <span>5</span>
-                   <span>2</span>
-                   <span>0</span>
+                   <span data-key="8">8</span>
+                   <span data-key="5">5</span>
+                   <span data-key="2">2</span>
+                   <span data-key="0">0</span>
                 </div>
                <div class="column">
-                   <span>9</span>
-                   <span>3</span>
-                   <span>6</span>
-                   <span></span>
+                   <span data-key="9">9</span>
+                   <span data-key="6">6</span>
+                   <span data-key="3">3</span>
+                   <span class="equals-to" data-key="=">=</span>
                 </div>
-               <div class="column">
-                   <span></span>
-                   <span></span>
-                   <span></span>
-                   <span></span>
+               <div class="operators">
+                    <span class="delete">del</span>                
+                   <span data-key="/">/</span>
+                   <span data-key="x">x</span>
+                   <span data-key="-">-</span>
+                   <span data-key="+">+</span>
                 </div>
            </section>
         </div>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
