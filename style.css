@@ -67,7 +67,7 @@ html {
     height: 40%;
 }
 
-.bottom{
+.bottom {
     background-color: #2d2d2d;
     height: 300px;
     color: #fff;
@@ -85,18 +85,18 @@ html {
     width: 80%;
 }
 
-.keys .colum{
+.keys .column{
     display: flex;
     flex-grow: 1;
 }
 
-.keys .colum, .operators{
+.keys .column, .operators{
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.keys .colum span, .operators span{
+.keys .column span, .operators span{
     position: relative;
     overflow: hidden;
     flex-grow: 1;
@@ -108,11 +108,11 @@ html {
     transition: background-color 0.5s;
 }
 
-.keys .colum span{
+.keys .column span{
     font-size: 25px;
 }
 
-.keys .colum span:hover, .operators span:hover{
+.keys .column span:hover, .operators span:hover{
     background-color: rgba(0, 0, 0, .2) ;
 }
 
